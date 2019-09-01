@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Beauty</title>
+    <script src="lib/jquery-3.4.1.min.js"></script>
+</head>
+
+<body>
+    
+    <section id="pageInsert">
+        <h4>insertPage</h4>
+        <script src="js/insert.js"></script>
+        <div class="list">
+            <div class="item">
+                <label>Title</label>
+                <input type="text" id="title" />
+            </div>
+            <div class="item">
+                <label>Body</label>
+                <input type="text" id="body" />
+            </div>
+            <div class="item">
+                <label>Author</label>
+                <input type="text" id="author" />
+            </div>
+            <div class="item">
+                <input type="button" id="insert" class="" value="Insert" />
+                <div id="loading"></div>
+            </div>
+            <p id="result"></p>
+        </div>
+    </section>
+<hr>
+    <section id="pageRead">
+        <h4>pageRead</h4>
+        <script src="js/read.js"></script>
+        <script src="js/update.js"></script>
+        <span>Id</span><br>
+        <input type="search" name="pesquisar" id="code" placeholder="Search">
+        <input type="button" id="read" value="Search" />
+        <div id="loading2"></div>
+        <div id="result2" style="margin: 10px 0"></div>
+        <input type="button" id="update" style="display: none" value="Update"/>
+        <input type="button" id="delete" style="display: none" value="Delete"/>
+    </section>
+<hr>
+    <section id="pageReadAll">
+        <h4>pageReadAll</h4>
+        <script src="js/read.js"></script>
+        <h3>Read All data for user's</h3>
+        <input type="button" id="read-all" class="button button-block" value="Push data" />
+        <div id="loading3"></div>
+        <div id="listview"></div>
+
+    </section>
+
+</body>
+
+</html>
