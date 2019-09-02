@@ -14,7 +14,7 @@
       
  }
 
-Obs: diretório (pasta) app-server-side-php deve ficar no servidor.
+Obs: diretório (pasta -> app-server-side-php) app-server-side-php deve ficar no servidor.
 
 Alterações a fazer:
 - Colocar a pasta app-server-side-php no servidor online ou local, como indicado em Obs acima.
