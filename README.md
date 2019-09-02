@@ -20,6 +20,6 @@ Alterações a fazer:
 - Colocar a pasta app-server-side-php no servidor online ou local, como indicado em Obs acima.
 - Configurar seu banco de dados e alterar o arquivo database.php, colocar suas credenciais.
 
-Nota: Leia a LICENCE em app-server-side-php.
+Nota: Leia a LICENCE.
 
 Enjoy :)

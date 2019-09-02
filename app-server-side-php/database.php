@@ -3,9 +3,9 @@ class Database
 {
 
     private $db_host = 'localhost';
-    private $db_name = 'php_api';
-    private $db_username = 'root';
-    private $db_password = '';
+    private $db_name = 'db_posts';
+    private $db_username = 'username';
+    private $db_password = 'passwd';
 
     public function dbConnection()
     {
